@@ -6,10 +6,10 @@ Rick and Morty Character Library
 There are lot of characters in Rick and Morty, for fans to remember all characters is difficult. 
 
 <b>Proposed Solution:</b>
-search and go through the characters I have created this app.
+Search and go through the characters I have created this app.
 This app has characters arranged alphabetically using the Rick and Morty API.
 
-
+![Screenshot 2022-01-08 183907](https://user-images.githubusercontent.com/64674824/148645368-beb9d5c2-1048-418e-987c-bea3bc46370e.png)
 
 <b>Functionality & Concepts used</b>
   - The App has a very simple and interactive interface which helps to look throughts the characters easily.
