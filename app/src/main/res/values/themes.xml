@@ -1,0 +1,8 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.RickAndMortyCharacterLibrary" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="colorPrimary">@color/dark_green</item>
+        <item name="colorSecondary">@color/green</item>
+        <item name="android:statusBarColor" tools:targetApi="l">@color/dark</item>
+    </style>
+</resources>

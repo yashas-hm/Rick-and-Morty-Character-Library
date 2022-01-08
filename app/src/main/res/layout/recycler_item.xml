@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:padding="@dimen/_5sdp"
+    android:background="@drawable/background"
+    android:backgroundTint="#B1DDA5"
+    android:layout_margin="@dimen/_5sdp">
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/image"
+        android:layout_width="@dimen/_120sdp"
+        android:layout_height="@dimen/_120sdp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:padding="@dimen/_3sdp"/>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/name"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toEndOf="@id/image"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="Yashas"
+        android:textSize="@dimen/_15sdp"
+        android:textColor="@color/dark"
+        android:paddingHorizontal="@dimen/_3sdp"/>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/alive_species"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toEndOf="@id/image"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/name"
+        tools:text="Alive - Human"
+        android:textSize="@dimen/_14sdp"
+        android:textColor="@color/dark"
+        android:paddingHorizontal="@dimen/_4sdp"
+        android:layout_marginVertical="@dimen/_8sdp"/>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/locationTxt"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/last_known_location"
+        app:layout_constraintStart_toEndOf="@id/image"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:textSize="@dimen/_13sdp"
+        app:layout_constraintTop_toBottomOf="@id/alive_species"
+        android:paddingHorizontal="@dimen/_4sdp"
+        android:textColor="@color/dark"
+        android:layout_marginVertical="@dimen/_20sdp"
+        android:textStyle="bold"/>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/location"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/_13sdp"
+        android:textColor="@color/dark"
+        android:paddingHorizontal="@dimen/_4sdp"
+        android:layout_marginVertical="@dimen/_8sdp"
+        app:layout_constraintStart_toEndOf="@id/image"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:text="Earth"
+        app:layout_constraintTop_toBottomOf="@id/locationTxt"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+
+<!--    {-->
+<!--    "id": 1,-->
+<!--    "name": "Rick Sanchez",-->
+<!--    "status": "Alive",-->
+<!--    "species": "Human",-->
+<!--    "type": "",-->
+<!--    "gender": "Male",-->
+<!--    "origin": {-->
+<!--    "name": "Earth",-->
+<!--    "url": "https://rickandmortyapi.com/api/location/1"-->
+<!--    },-->
+<!--    "location": {-->
+<!--    "name": "Earth",-->
+<!--    "url": "https://rickandmortyapi.com/api/location/20"-->
+<!--    },-->
+<!--    "image": "https://rickandmortyapi.com/api/character/avatar/1.jpeg",-->
+<!--    "episode": [-->
+<!--    "https://rickandmortyapi.com/api/episode/1",-->
+<!--    "https://rickandmortyapi.com/api/episode/2",-->
+<!--    // ...-->
+<!--    ],-->
+<!--    "url": "https://rickandmortyapi.com/api/character/1",-->
+<!--    "created": "2017-11-04T18:48:46.250Z"-->
+<!--    },-->

@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Rick and Morty Character Library</string>
+    <string name="last_known_location">Last Known Location:</string>
+    <string name="enter_your_name">Enter Your Name</string>
+    <string name="search_character">Search Character</string>
+    <string name="dive_in">Dive In</string>
+</resources>
